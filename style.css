@@ -30,6 +30,10 @@
     display: flex;
 }
 img{
+    height: 500px;
+    width: 100%;
+}
+.img{
     display: block;
     padding: 5px;
     margin-left: auto;
