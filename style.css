@@ -1,6 +1,6 @@
 .nav{
     overflow: hidden;
-    background-color: lightgray;
+    background-color: cadetblue;
     list-style-type: none;
 }
 .nav ul {
@@ -11,7 +11,7 @@
 }
 .nav a {
     text-align: center;
-    color: black;
+    color: white;
     display: block;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,4 +27,53 @@
     text-align: center;
     height: 100px;
     padding-top: 5px;
+    display: flex;
+}
+img{
+    display: block;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.bluebox{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    padding: 50px;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.unordered li{
+    list-style-type: circle;
+    list-style-position: outside;
+    font-size: 20px;
+    padding: 3px;
+    width: auto;
+}
+.ordered li{
+    list-style-type: upper-roman;
+    list-style-position: outside;
+    font-size: 20px;
+    padding: 3px;
+    width: auto;
+}
+
+textarea{
+    width: 100%;
+}
+.submit{
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: cadetblue;
+    cursor: pointer;
 }
